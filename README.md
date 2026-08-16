@@ -60,8 +60,8 @@ different dependencies or system requirements.
 
 ### Official documentation
 
-- [PyTorch documentation](https://docs.pytorch.org/docs/2.13/)
 - [Python documentation](https://docs.python.org/3/)
+- [PyTorch documentation](https://docs.pytorch.org/docs/2.13/)
 - [NumPy documentation](https://numpy.org/doc/stable/)
 - [Matplotlib documentation](https://matplotlib.org/stable/)
 - [Jupyter documentation](https://docs.jupyter.org/en/latest/)
