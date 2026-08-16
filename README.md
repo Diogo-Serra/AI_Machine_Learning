@@ -55,3 +55,19 @@ Transformers, NumPy, MatPlotLib, Pydantic, and `uv`.
 Open the [project index](#projects), choose a project, and follow the setup and
 usage instructions in its README. Projects are self-contained and may have
 different dependencies or system requirements.
+
+## Resources
+
+### Official documentation
+
+- [PyTorch documentation](https://docs.pytorch.org/docs/2.13/)
+- [Python documentation](https://docs.python.org/3/)
+- [NumPy documentation](https://numpy.org/doc/stable/)
+- [Matplotlib documentation](https://matplotlib.org/stable/)
+- [Jupyter documentation](https://docs.jupyter.org/en/latest/)
+- [Hugging Face Transformers documentation](https://huggingface.co/docs/transformers/)
+
+### Courses and lectures
+
+- [Andrej Karpathy - The spelled-out intro to language modeling: building makemore](https://www.youtube.com/watch?v=PaCmpygFfXo&t=4124s)
+- [Andrej Karpathy - Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
