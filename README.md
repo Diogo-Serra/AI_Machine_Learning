@@ -11,9 +11,11 @@ trade-offs, and documenting the reasoning behind each solution.
 
 The main track of this repository is a deep, deliberate study of Andrej
 Karpathy's [**Neural Networks: Zero to Hero**](https://karpathy.ai/zero-to-hero.html)
-lecture series — building neural networks and language models from scratch in
+lecture series - building neural networks and language models from scratch in
 PyTorch, starting from raw backpropagation and working up to a GPT-style
 Transformer.
+
+- [YouTube playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 
 All coursework, exercises, and notes for this series live in
 [`topics/karpathy-neural_networks/`](topics/karpathy-neural_networks/), organized
@@ -51,7 +53,7 @@ AI_Machine_Learning/
 ├── topics/
 │   └── karpathy-neural_networks/  # Neural Networks: Zero to Hero coursework
 ├── projects/
-│   └── function_call/             # Call Me Maybe — LLM function calling
+│   └── function_call/             # LLM function calling
 ├── tools/
 │   └── Jupyter_Notebook/          # Jupyter notebook setup and utilities
 ├── src/                           # Shared assets (e.g. banner image)
@@ -93,6 +95,8 @@ Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
 
 ### Courses and lectures
 
-- [Andrej Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [Andrej Karpathy - Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [Neural Networks: Zero to Hero - YouTube playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- [micrograd on GitHub](https://github.com/karpathy/micrograd)
 - [makemore on GitHub](https://github.com/karpathy/makemore)
 - [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
