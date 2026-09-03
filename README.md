@@ -35,6 +35,16 @@ lecture by lecture:
 Each lecture folder tracks its own progress, notes, and exercise solutions as
 the course is worked through.
 
+## Coursework queue
+
+Additional courses tracked in [`topics/`](topics/) for after the current
+focus, or in parallel as needed:
+
+| Track | Course | Status |
+| --- | --- | --- |
+| [`andrew-ng-machine-learning/`](topics/andrew-ng-machine-learning/) | Andrew Ng — [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) | Not started |
+| [`andrew-ng-prompt-engineering/`](topics/andrew-ng-prompt-engineering/) | Andrew Ng — [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) | Not started |
+
 ## Projects
 
 Applied work that builds on these fundamentals:
@@ -51,12 +61,14 @@ decisions, and technical analysis.
 ```text
 AI_Machine_Learning/
 ├── topics/
-│   └── karpathy-neural_networks/  # Neural Networks: Zero to Hero coursework
+│   ├── karpathy-neural_networks/     # Neural Networks: Zero to Hero (current focus)
+│   ├── andrew-ng-machine-learning/   # Machine Learning Specialization
+│   └── andrew-ng-prompt-engineering/ # ChatGPT Prompt Engineering for Developers
 ├── projects/
-│   └── function_call/             # LLM function calling
+│   └── function_call/                # LLM function calling
 ├── tools/
-│   └── Jupyter_Notebook/          # Jupyter notebook setup and utilities
-├── src/                           # Shared assets (e.g. banner image)
+│   └── Jupyter_Notebook/             # Jupyter notebook setup and utilities
+├── src/                              # Shared assets (e.g. banner image)
 └── README.md
 ```
 
@@ -82,16 +94,6 @@ Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
   setup and usage instructions in each project's README. Projects are
   self-contained and may have different dependencies or system requirements.
 
-### GitHub Copilot cloud agent
-
-This repository includes [`.github/workflows/copilot-setup-steps.yml`](.github/workflows/copilot-setup-steps.yml),
-which preinstalls Python and this repository's dependencies before GitHub
-Copilot's cloud agent starts working on an issue or pull request here. The
-workflow only takes effect once it exists on the **default branch** — merge
-it in, and it will run automatically for every future Copilot cloud agent
-session on this repo. No manual activation step is needed beyond that; it can
-also be run on demand from the repository's **Actions** tab.
-
 ## Resources
 
 ### Official documentation
@@ -110,3 +112,5 @@ also be run on demand from the repository's **Actions** tab.
 - [micrograd on GitHub](https://github.com/karpathy/micrograd)
 - [makemore on GitHub](https://github.com/karpathy/makemore)
 - [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
+- [Andrew Ng - Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
+- [Andrew Ng - ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
