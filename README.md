@@ -51,7 +51,7 @@ Applied work that builds on these fundamentals:
 
 | Project | Description | Topics |
 | --- | --- | --- |
-| [Call Me Maybe](projects/function_call/) | My first project working directly with LLMs: converts natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output |
+| [intentCast-mcp](https://github.com/Diogo-Serra/intentCast-mcp) | My first project working directly with LLMs: converts natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output |
 
 Each project contains its own documentation, setup instructions, design
 decisions, and technical analysis.
@@ -65,7 +65,7 @@ AI_Machine_Learning/
 │   ├── andrew-ng-machine-learning/   # Machine Learning Specialization
 │   └── andrew-ng-prompt-engineering/ # Full AI Prompting Course
 ├── projects/
-│   └── function_call/                # LLM function calling
+│   └── intentCast-mcp/                # pointer to the intentCast-mcp repo
 ├── tools/
 │   └── Jupyter_Notebook/             # Jupyter notebook setup and utilities
 ├── src/                              # Shared assets (e.g. banner image)
