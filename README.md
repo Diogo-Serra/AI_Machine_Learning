@@ -42,7 +42,7 @@ core study track:
 
 | Track | Course | Status |
 | --- | --- | --- |
-| [`andrew-ng-machine-learning/`](topics/andrew-ng-machine-learning/) | Andrew Ng - [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) | Not started |
+| [`andrew-ng-machine-learning/`](topics/andrew-ng-machine-learning/) | Andrew Ng - [Machine Learning Specialization](https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI) | Not started |
 | [`andrew-ng-prompt-engineering/`](topics/andrew-ng-prompt-engineering/) | Andrew Ng - [Full AI Prompting Course](https://www.youtube.com/watch?v=8ib4Qnh2HFE) | Completed |
 
 ## Projects
@@ -111,5 +111,5 @@ Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
 - [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
 - [micrograd on GitHub](https://github.com/karpathy/micrograd)
 - [makemore on GitHub](https://github.com/karpathy/makemore)
-- [Andrew Ng - Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
+- [Andrew Ng - Machine Learning Specialization](https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI)
 - [Andrew Ng - Full AI Prompting Course](https://www.youtube.com/watch?v=8ib4Qnh2HFE)
