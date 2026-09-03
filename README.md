@@ -2,26 +2,44 @@
 
 # AI & Machine Learning
 
-A growing collection of hands-on projects that explore how AI and machine
-learning systems work, from model fundamentals to practical applications.
-
-The focus is on learning by building: implementing core ideas, studying their
+A personal, hands-on journey into how AI and machine learning systems work,
+from first-principles fundamentals to applied LLM systems. The focus is on
+learning by building: implementing core ideas from scratch, studying their
 trade-offs, and documenting the reasoning behind each solution.
 
-## Areas of exploration
+## Current focus: Neural Networks: Zero to Hero
 
-- Large language models and autoregressive generation
-- Tokenization, embeddings, and attention
-- Constrained decoding and structured outputs
-- Classical machine learning algorithms
-- Model evaluation, reliability, and performance
-- Applied AI systems
+The main track of this repository is a deep, deliberate study of Andrej
+Karpathy's [**Neural Networks: Zero to Hero**](https://karpathy.ai/zero-to-hero.html)
+lecture series — building neural networks and language models from scratch in
+PyTorch, starting from raw backpropagation and working up to a GPT-style
+Transformer.
+
+All coursework, exercises, and notes for this series live in
+[`topics/karpathy-neural_networks/`](topics/karpathy-neural_networks/), organized
+lecture by lecture:
+
+| # | Lecture | Topic |
+| --- | --- | --- |
+| 1 | [micrograd](topics/karpathy-neural_networks/01-micrograd/) | Backpropagation & autograd engine from scratch |
+| 2 | [makemore (bigram)](topics/karpathy-neural_networks/02-makemore-bigram/) | Bigram character-level language model |
+| 3 | [makemore (MLP)](topics/karpathy-neural_networks/03-makemore-mlp/) | MLP language model |
+| 4 | [makemore (BatchNorm)](topics/karpathy-neural_networks/04-makemore-batchnorm/) | Activations, gradients, BatchNorm |
+| 5 | [makemore (backprop ninja)](topics/karpathy-neural_networks/05-makemore-backprop-ninja/) | Manual backprop through the MLP |
+| 6 | [makemore (WaveNet)](topics/karpathy-neural_networks/06-makemore-wavenet/) | WaveNet-style hierarchical model |
+| 7 | [GPT](topics/karpathy-neural_networks/07-gpt/) | Building GPT from scratch |
+| 8 | [Tokenizer](topics/karpathy-neural_networks/08-tokenizer/) | Building the GPT tokenizer |
+
+Each lecture folder tracks its own progress, notes, and exercise solutions as
+the course is worked through.
 
 ## Projects
 
+Applied work that builds on these fundamentals:
+
 | Project | Description | Topics |
 | --- | --- | --- |
-| [Call Me Maybe](projects/function_call/) | Converts natural-language requests into typed function calls using a small local LLM and constrained decoding. | LLMs, tokenization, function calling, structured output |
+| [Call Me Maybe](projects/function_call/) | My first project working directly with LLMs: converts natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output |
 
 Each project contains its own documentation, setup instructions, design
 decisions, and technical analysis.
@@ -30,37 +48,37 @@ decisions, and technical analysis.
 
 ```text
 AI_Machine_Learning/
-├── projects/
-│   └── function_call/          # Constrained LLM function calling
 ├── topics/
-│   ├── karpathy-neural_networks/ # Karpathy's Neural Networks: Zero to Hero series
-│   └── numpy/                    # NumPy fundamentals
+│   └── karpathy-neural_networks/  # Neural Networks: Zero to Hero coursework
+├── projects/
+│   └── function_call/             # Call Me Maybe — LLM function calling
 ├── tools/
-│   └── Jupyter_Notebook/         # Jupyter notebook setup and utilities
-├── src/                         # Shared assets (e.g. banner images)
+│   └── Jupyter_Notebook/          # Jupyter notebook setup and utilities
+├── src/                           # Shared assets (e.g. banner image)
 └── README.md
 ```
 
 ## Approach
 
-Projects in this repository aim to:
+Work in this repository aims to:
 
 - build important mechanisms instead of treating models as black boxes;
 - explain algorithms and design decisions clearly;
 - use reproducible environments and documented workflows;
-- validate results with testing, static analysis, and measurable outcomes
+- validate results with testing, static analysis, and measurable outcomes;
 - connect theory to working implementations.
 
 ## Tech stack
 
-The tools vary by project. Current work primarily uses Python, PyTorch,
-Transformers, NumPy, MatPlotLib, Pydantic, and `uv`.
+Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
 
 ## Getting started
 
-Open the [project index](#projects), choose a project, and follow the setup and
-usage instructions in its README. Projects are self-contained and may have
-different dependencies or system requirements.
+- To follow along with the course, see [`topics/karpathy-neural_networks/`](topics/karpathy-neural_networks/)
+  for setup instructions and lecture-by-lecture progress.
+- To explore applied work, open the [project index](#projects) and follow the
+  setup and usage instructions in each project's README. Projects are
+  self-contained and may have different dependencies or system requirements.
 
 ## Resources
 
@@ -75,4 +93,6 @@ different dependencies or system requirements.
 
 ### Courses and lectures
 
-- [Andrej Karpathy - Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [Andrej Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+- [makemore on GitHub](https://github.com/karpathy/makemore)
+- [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
