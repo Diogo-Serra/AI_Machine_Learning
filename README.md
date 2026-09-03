@@ -82,6 +82,16 @@ Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
   setup and usage instructions in each project's README. Projects are
   self-contained and may have different dependencies or system requirements.
 
+### GitHub Copilot cloud agent
+
+This repository includes [`.github/workflows/copilot-setup-steps.yml`](.github/workflows/copilot-setup-steps.yml),
+which preinstalls Python and this repository's dependencies before GitHub
+Copilot's cloud agent starts working on an issue or pull request here. The
+workflow only takes effect once it exists on the **default branch** — merge
+it in, and it will run automatically for every future Copilot cloud agent
+session on this repo. No manual activation step is needed beyond that; it can
+also be run on demand from the repository's **Actions** tab.
+
 ## Resources
 
 ### Official documentation
