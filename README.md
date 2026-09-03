@@ -31,7 +31,13 @@ decisions, and technical analysis.
 ```text
 AI_Machine_Learning/
 ├── projects/
-│   └── function_call/  # Constrained LLM function calling
+│   └── function_call/          # Constrained LLM function calling
+├── topics/
+│   ├── karpathy-neural_networks/ # Karpathy's Neural Networks: Zero to Hero series
+│   └── numpy/                    # NumPy fundamentals
+├── tools/
+│   └── Jupyter_Notebook/         # Jupyter notebook setup and utilities
+├── src/                         # Shared assets (e.g. banner images)
 └── README.md
 ```
 
@@ -69,5 +75,4 @@ different dependencies or system requirements.
 
 ### Courses and lectures
 
-- [Andrej Karpathy - The spelled-out intro to language modeling: building makemore](https://www.youtube.com/watch?v=PaCmpygFfXo&t=4124s)
 - [Andrej Karpathy - Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
