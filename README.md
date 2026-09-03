@@ -54,9 +54,7 @@ Applied work that builds on these fundamentals:
 | [intentCast-mcp](https://github.com/Diogo-Serra/intentCast-mcp) | My first project working directly with LLMs: an MCP server that resolves natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output, MCP |
 
 Each project contains its own documentation, setup instructions, design
-decisions, and technical analysis. `intentCast-mcp` now lives in its own
-repository; [`projects/intentCast-mcp/`](projects/intentCast-mcp/) is just a
-pointer to it.
+decisions, and technical analysis.
 
 ## Repository structure
 
