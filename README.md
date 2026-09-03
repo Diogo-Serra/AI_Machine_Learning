@@ -7,10 +7,10 @@ from first-principles fundamentals to applied LLM systems. The focus is on
 learning by building: implementing core ideas from scratch, studying their
 trade-offs, and documenting the reasoning behind each solution.
 
-## Current focus: Neural Networks: Zero to Hero
+## Neural Networks: Zero to Hero
 
-The main track of this repository is a deep, deliberate study of Andrej
-Karpathy's [**Neural Networks: Zero to Hero**](https://karpathy.ai/zero-to-hero.html)
+The core of this repository is a deep, deliberate study of Andrej Karpathy's
+[**Neural Networks: Zero to Hero**](https://karpathy.ai/zero-to-hero.html)
 lecture series - building neural networks and language models from scratch in
 PyTorch, starting from raw backpropagation and working up to a GPT-style
 Transformer.
@@ -37,13 +37,13 @@ the course is worked through.
 
 ## Coursework queue
 
-Additional courses tracked in [`topics/`](topics/) for after the current
-focus, or in parallel as needed:
+Additional courses tracked in [`topics/`](topics/) alongside this repository's
+core study track:
 
 | Track | Course | Status |
 | --- | --- | --- |
-| [`andrew-ng-machine-learning/`](topics/andrew-ng-machine-learning/) | Andrew Ng — [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) | Not started |
-| [`andrew-ng-prompt-engineering/`](topics/andrew-ng-prompt-engineering/) | Andrew Ng — [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) | Not started |
+| [`andrew-ng-machine-learning/`](topics/andrew-ng-machine-learning/) | Andrew Ng - [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) | Not started |
+| [`andrew-ng-prompt-engineering/`](topics/andrew-ng-prompt-engineering/) | Andrew Ng - [Full AI Prompting Course](https://www.youtube.com/watch?v=8ib4Qnh2HFE) | Completed |
 
 ## Projects
 
@@ -61,9 +61,9 @@ decisions, and technical analysis.
 ```text
 AI_Machine_Learning/
 ├── topics/
-│   ├── karpathy-neural_networks/     # Neural Networks: Zero to Hero (current focus)
+│   ├── karpathy-neural_networks/     # Neural Networks: Zero to Hero
 │   ├── andrew-ng-machine-learning/   # Machine Learning Specialization
-│   └── andrew-ng-prompt-engineering/ # ChatGPT Prompt Engineering for Developers
+│   └── andrew-ng-prompt-engineering/ # Full AI Prompting Course
 ├── projects/
 │   └── function_call/                # LLM function calling
 ├── tools/
@@ -107,10 +107,9 @@ Python, PyTorch, Transformers, NumPy, Matplotlib, Jupyter, Pydantic, and `uv`.
 
 ### Courses and lectures
 
-- [Andrej Karpathy - Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 - [Neural Networks: Zero to Hero - YouTube playlist](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+- [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
 - [micrograd on GitHub](https://github.com/karpathy/micrograd)
 - [makemore on GitHub](https://github.com/karpathy/makemore)
-- [nn-zero-to-hero on GitHub](https://github.com/karpathy/nn-zero-to-hero)
 - [Andrew Ng - Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
-- [Andrew Ng - ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [Andrew Ng - Full AI Prompting Course](https://www.youtube.com/watch?v=8ib4Qnh2HFE)
