@@ -51,7 +51,7 @@ Applied work that builds on these fundamentals:
 
 | Project | Description | Topics |
 | --- | --- | --- |
-| [intentCast-mcp](https://github.com/Diogo-Serra/intentCast-mcp) | My first project working directly with LLMs: an MCP server that resolves natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output, MCP |
+| [intentCast-mcp](https://github.com/Diogo-Serra/intentCast-mcp) | My first project working directly with LLMs: an MCP server that resolves natural-language prompts into structured, typed function calls using a small local LLM (Qwen3-0.6B) and constrained decoding, guaranteeing 100% valid JSON output. | LLMs, tokenization, function calling, constrained decoding, structured output |
 
 Each project contains its own documentation, setup instructions, design
 decisions, and technical analysis.
