@@ -32,8 +32,6 @@ lecture by lecture:
 | 7 | [GPT](topics/karpathy-neural_networks/07-gpt/) | Building GPT from scratch |
 | 8 | [Tokenizer](topics/karpathy-neural_networks/08-tokenizer/) | Building the GPT tokenizer |
 
-Each lecture folder tracks its own progress, notes, and exercise solutions as
-the course is worked through.
 
 ## Coursework queue
 
